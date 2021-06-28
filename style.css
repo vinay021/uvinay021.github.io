@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+.li {
+  font-family: "Abel", sans-serif;
+  text-decoration: none;
+  display: flex;
+  padding-left: 1.2vw;
+  font-size: 1.7vw;
+  cursor: pointer;
+}
+li:hover {
+  text-decoration: underline;
+}
+.ul {
+  display: flex;
+  margin: 1.3vh 64vw;
+}
+.nav{
+    display:inline-flex;
+}
+
+.f {
+  width: max-content;
+  margin: 23vh 40vw;
+  color: white;
+  font-family: "Abel", cursive;
+  font-size: 22px;
+}
+.foot {
+  display: flexbox;
+  position: absolute;
+  margin: 37.5vh 0vw;
+  height: 30vh;
+  background-color: #333;
+}
+.h{
+    display: inline-block;
+    margin: 0vh 1vw;
+    font-size: 42px;
+    font-family: 'Orbitron', cursive;
+}
+.image{
+    margin: 7vh 55vw;
+    display: flex;
+    width: 30vw;
+}
+
+.hop{
+    display: inline-block;
+    margin: -40vw 8vw;
+    width: 45vw;
+    font-size: 5vw;
+    font-family: "Akaya Kanadaka";
+}
+.ho{
+    display: inline-block;
+    margin: -25vw -54vw;
+    font-size: 2vw;
+    width: 42vw;
+    font-family: 'Abel';
+}
+.div{
+    display: flex;
+    margin: 0vw 0vw;
+    width: 54vw;
+}
+.btn{
+    display: flex;
+    margin: -17vh 13vw;
+    font-size: 2vw;
+    color: white;
+    border-radius: 3vw;
+    background-color: black;
+    width: 11vw;
+    font-family: Abel;
+    justify-content: center;
+}
+.img{
+    margin: 40vh 0vw;
+    display: flex;
+    width: 97.5vw;
+    height: 97%;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    background-attachment: fixed;
+}
+.imgtext{
+    margin: -107vh 12vw;
+    display: block;
+    color: white;
+    width: 77vw;
+    font-size: 8vw;
+    position: absolute;
+    font-family: Abel;
+    background: linear-gradient(to bottom right,#f32170, #ff6b08,
+    #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+.imggtext{
+    margin: -140vh 28vw;
+    display: block;
+    color: white;
+    width: 60vw;
+    font-size: 7vw;
+    position: absolute;
+    font-family: Abel;
+    background: linear-gradient(
+            to right, #36cdad,#0dcfe6,#5355cc,#cc4fbd);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+.imgggtext{
+    margin: -60vh 29vw;
+    display: block;
+    color: white;
+    width: 60vw;
+    font-size: 3vw;
+    position: absolute;
+    font-family: Abel;
+}
+.yolo{
+    margin: -1vh 1vw;
+    width: 37vw;
+    display: flex;
+}
+.yolo1{
+    margin: -75.7vh 38.7vw;
+    width: 37vw;
+    display: flex;
+}
+.yolo2{
+    margin: 37.7vh 75.9vw;
+    width: 21.7vw;
+    display: flex;
+}
+.yolo3{
+    margin: -37vh 38.5vw;
+    width: 18.4vw;
+    display: flex;
+}
+.yolo4{
+    margin: 0vh 57.1vw;
+    width: 17.4vw;
+    display: flex;
+}
+.yolo5{
+    margin: -36vh 78.1vw;
+    width: 17.4vw;
+    display: flex;
+}
+body{
+    /* overflow-x: hidden; */
+}
+.connect{
+    margin: 40vh 70vw;
+    display: inline-block;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 3vw;
+    position: absolute;
+}
+.fr{
+    margin: 39vh 13.3vw;
+    display: inline-block;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 3vw;
+    position: absolute;
+}
+.f1{
+    margin: 45.4vh 82vw;
+    display: inline-block;
+    width: 9vw;
+    position: absolute;
+    cursor:pointer;
+}
+.f2{
+    margin: 42.3vh 80vw;
+    display: inline-block;
+    width: 2.7vw;
+    position: absolute;
+    cursor:pointer;
+}
+.f3{
+    margin: 57.3vh 90vw;
+    display: inline-block;
+    width: 2.7vw;
+    position: absolute;
+    cursor:pointer;
+}
+.fr1{
+    margin: 50vh 5vw;
+    display: inline-block;
+    font-family: 'Amatic SC', cursive;
+    color: wheat;
+    width: fit-content;
+    font-size: 2vw;
+    text-decoration: solid;
+    position: absolute;
+    cursor:pointer;
+}
+.fr2{
+    margin: 50vh 22vw;
+    display: inline-block;
+    font-family: 'Amatic SC', cursive;
+    color: wheat;
+    width: fit-content;
+    font-size: 2vw;
+    text-decoration: solid;
+    position: absolute;
+    cursor:pointer;
+}
+.fr3{
+    margin: 57.5vh 5vw;
+    display: inline-block;
+    font-family: 'Amatic SC', cursive;
+    color: wheat;
+    width: fit-content;
+    font-size: 2vw;
+    text-decoration: solid;
+    position: absolute;
+    cursor:pointer;
+}
+.fr4{
+    margin: 57.5vh 22vw;
+    display: flex;
+    font-family: 'Amatic SC', cursive;
+    color: wheat;
+    width: 100%;
+    width: fit-content;
+    font-size: 2vw;
+    text-decoration: solid;
+    position: absolute;
+    cursor:pointer;
+}
